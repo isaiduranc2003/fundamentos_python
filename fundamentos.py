@@ -135,5 +135,7 @@ print("t[0:3]",t[0:3])
 
 
 #tarea
-
+nuevoTema("Conjuntos")
+t = {50,20,30,40,10}
+print("Conjunto t=", t)
 
