@@ -149,3 +149,32 @@ cadena2 = 'Cadena con comillas simples'
 
 print(cadena1, type(cadena1))
 print(cadena2, type(cadena2))
+
+cadenamultilinea = '''Esta es
+una cadena de
+varias 
+lineas'''
+print(cadenamultilinea)
+
+print("segmentacion de cadenas")
+print(cadena1[5:11])
+print(cadena1[:11])
+print(cadena1[7:])
+print(cadena1[-8:-1])#imprime del final hacia atras
+#sancada
+print(cadena1[0:18:1])#imprime desde el 0 al 18 y avanza de 1 en 1
+print(cadena1[0:18:2])#imprime desde el 0 al 18 y avanza de 2 en 2
+print(cadena1[0:18:3])
+
+
+
+cadena3 = "hola"
+cadena4 = (cadena3+" ")*5
+print (cadena4)
+
+cadena5 = cadena4.capitalize()#Pone la primera letra del enunciado en mayusculas
+print(cadena5)
+
+cadena5 = cadena4.upper()#imprime el enunciado en mayusculas
+print(cadena5)
+#documentacion es importante saberla (se encuentra en la pagina de python)
