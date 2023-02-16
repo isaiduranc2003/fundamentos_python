@@ -139,3 +139,13 @@ nuevoTema("Conjuntos")
 t = {50,20,30,40,10}
 print("Conjunto t=", t)
 
+nuevoTema("Diccionarios")
+d = {1:"valor1","valor2":2j}
+print(d, type(d))
+
+nuevoTema("Cadenas")
+cadena1 = "Cadena con comillas dobles"
+cadena2 = 'Cadena con comillas simples'
+
+print(cadena1, type(cadena1))
+print(cadena2, type(cadena2))
